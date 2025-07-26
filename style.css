@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  gap: 2px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border: 1px solid #888;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell.revealed {
+  background-color: #eee;
+  cursor: default;
+}
+
+.cell.flagged {
+  background-color: #fdd;
+  color: red;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
