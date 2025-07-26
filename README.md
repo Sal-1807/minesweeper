@@ -6,7 +6,7 @@ A **minimalistic Minesweeper** game built using **HTML**, **CSS**, and **JavaScr
 
 ## 🎮 Live Demo
 
-> [🔗 Play Now on Netifly](https://yourusername.github.io/minimal-minesweeper)
+> [🔗 Play Now on Netifly](https://minesweeperrrr.netlify.app/)
 
 
 ---
