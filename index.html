@@ -7,9 +7,18 @@
 </head>
 <body>
   <h1>Minesweeper</h1>
-  <button onclick="createBoard()">🔄 Restart Game</button>
+
+  <div id="stats">
+    <p>⏱️ Time: <span id="timer">0</span> sec</p>
+    <p>🏆 High Score: <span id="highScore">–</span> sec</p>
+    <p>✅ Wins: <span id="wins">0</span> | ❌ Losses: <span id="losses">0</span></p>
+  </div>
+
+  <button id="restartBtn">🔁 Restart</button>
+
   <div id="game"></div>
   <p id="status"></p>
+
   <script src="script.js"></script>
 </body>
 </html>
