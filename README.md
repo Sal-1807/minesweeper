@@ -17,6 +17,9 @@ A **minimalistic Minesweeper** game built using **HTML**, **CSS**, and **JavaScr
 - 💡 Minimal UI with no external libraries
 - ⚡ Fast, lightweight, and responsive
 - 📱 Mobile-friendly layout
+- ⏱️ Time based score 
+- 🏆 Win-Loss counter  
+- 🔁 Restart button 
 
 ---
 
